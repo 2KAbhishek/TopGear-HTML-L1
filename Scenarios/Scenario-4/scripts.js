@@ -30,6 +30,7 @@ ctx.strokeText("|", 330, 380);
 ctx.strokeText("2006", 335, 390);
 ctx.strokeText("|", 380, 380);
 ctx.strokeText("2007", 385, 390);
+ctx.strokeText("Year", 390, 360);
 ctx.moveTo(80, 230); //(2001, 281)
 ctx.lineTo(130, 235);
 ctx.moveTo(130, 235); //(2002, 277)
