@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Awesome Video</title>
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <section id="first">
+            <div class="color-picker">
+                <button type="button" onclick="black1()" class="black-btn">B</button>
+                <button type="button" onclick="white1()" class="white-btn">W</button>
+                <button type="button" onclick="blue1()" class="blue-btn">C</button>
+            </div>
+            <img width="50px" src="logo.png" />
+            <h1>Awesome Online Videos</h1>
+        </section>
+        <section id="second">
+            <div class="color-picker">
+                <button type="button" onclick="black2()" class="black-btn">B</button>
+                <button type="button" onclick="white2()" class="white-btn">W</button>
+                <button type="button" onclick="blue2()" class="blue-btn">C</button>
+            </div>
+            <video
+                id="video"
+                width="420"
+                poster="logo.png"
+                src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
+            >
+                Your browser does not support HTML5 video.</video
+            ><br />
+            <button type="button" class="toggle-btn" onclick="togglePlay()">Play</button>
+            <button type="button" class="toggle-btn" onclick="togglePlay()">Pause</button>
+        </section>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
