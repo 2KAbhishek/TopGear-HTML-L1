@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Stock Trading Application</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div>
+            <table id="table">
+                <tr>
+                    <th>TICKER</th>
+                    <th>PRICE</th>
+                </tr>
+                <tr>
+                    <td>WIPRO</td>
+                    <td>298.45</td>
+                </tr>
+                <tr>
+                    <td>INFY</td>
+                    <td>949.95</td>
+                </tr>
+                <tr>
+                    <td>TCS</td>
+                    <td>2713.70</td>
+                </tr>
+                <tr>
+                    <td>TECHM</td>
+                    <td>485.85</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <form name="stock" onsubmit="validateStock()">
+                <h1>Stock Trading</h1>
+                <table>
+                    <tr>
+                        <td style>Ticker:</td>
+                        <td><input type="text" name="ticker" /></td>
+                    </tr>
+                    <tr>
+                        <td>Qantity:</td>
+                        <td><input type="text" name="qty" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="submit" value="Submit" /></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
