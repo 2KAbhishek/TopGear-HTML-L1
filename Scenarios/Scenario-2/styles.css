@@ -1,0 +1,12 @@
+body {
+    background-color: plum;
+    margin: 1cm;
+    border: 5px solid cornflowerblue;
+    padding: 1cm;
+    border-radius: 20px;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
