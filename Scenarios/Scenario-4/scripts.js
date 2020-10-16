@@ -1,7 +1,7 @@
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "15px Arial";
-ctx.lineWidth = 2;
+ctx.lineWidth = 1.2;
 ctx.strokeStyle = "white";
 ctx.strokeText("Lakh Tonnes", 40, 20);
 ctx.strokeText("700  -", 0, 20);
