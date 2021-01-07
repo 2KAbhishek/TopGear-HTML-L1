@@ -1,5 +1,6 @@
 # Scenarios
 
+```md
 ## Scenario 1
 
 Create a HTML5 web page which is used for a Stock Trading App
@@ -42,7 +43,6 @@ Create a Web Page with two horizontal sections.
 For the Agricultural Statistical Department of Government of Indian make a chart showing yield of bajra from 2001 to 2007.
 Use the following data.
 
-```md
 Year Yield
 2001, 281
 2002, 277
@@ -51,7 +51,6 @@ Year Yield
 2005, 200
 2006, 280
 2007, 150
-```
 
 ## Scenario 5
 
@@ -59,7 +58,6 @@ For the BCCI (Board of Control for Cricket in India) web page, we need to show a
 chart for the batting statistics of the Indian team for a T20 cricket match.
 The details are as follows:
 
-```md
 Over Runs
 5 40
 10 75
