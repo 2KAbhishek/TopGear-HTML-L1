@@ -11,19 +11,19 @@
         <img src="logo.png" alt="Logo" />
         <h2>Xena Events</h2>
         <div>
-            <form name="register" onsubmit="validateForm()">
+            <form name="register">
                 <table>
                     <tr>
                         <td>Name:</td>
-                        <td><input type="text" name="name" required /></td>
+                        <td><input type="text" name="name" pattern="[a-zA-Z\s]+" required /></td>
                     </tr>
                     <tr>
                         <td>Age:</td>
-                        <td><input type="text" name="age" required /></td>
+                        <td><input type="number" name="age" min="18" required /></td>
                     </tr>
                     <tr>
                         <td>Email ID:</td>
-                        <td><input type="text" name="email" required /></td>
+                        <td><input type="email" name="email" required /></td>
                     </tr>
                     <tr>
                         <td>City:</td>
@@ -44,6 +44,5 @@
                 </table>
             </form>
         </div>
-        <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>
