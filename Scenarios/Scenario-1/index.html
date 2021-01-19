@@ -31,7 +31,7 @@
             </table>
         </div>
         <div>
-            <form name="stock" onsubmit="validateStock()">
+            <form name="stock">
                 <h1>Stock Trading</h1>
                 <table>
                     <tr>
@@ -40,7 +40,7 @@
                     </tr>
                     <tr>
                         <td>Qantity:</td>
-                        <td><input type="text" name="qty" /></td>
+                        <td><input type="number" name="qty" min="10" max="100" step="10" /></td>
                     </tr>
                     <tr>
                         <td><input type="submit" name="submit" value="Submit" /></td>
@@ -49,6 +49,5 @@
                 </table>
             </form>
         </div>
-        <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>
